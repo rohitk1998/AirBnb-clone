@@ -1,0 +1,8 @@
+.search {
+  position: absolute;
+  top: 90%;
+  display: flex;
+  flex-direction: column;
+  width: 558px;
+  background-color: black;
+}

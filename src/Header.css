@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0%;
+  justify-content: space-evenly;
+  z-index: 100;
+  box-shadow: 0px 0px 15px -1px rgba(194, 194, 194, 1);
+  background-color: white;
+}
+
+.header .header__icon {
+  width: 100px;
+  object-fit: contain;
+  height: 80px;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+.header__center {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  align-self: center;
+  max-width: fit-content;
+  height: 40px;
+  border: 1.5px solid lightgray;
+  border-radius: 22px;
+  transition: ease 0.5s;
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 12px;
+}
+.header__center:hover {
+  box-shadow: -7px 15px 11px -10px rgba(179, 179, 179, 1);
+}
+.header__center > form {
+  display: flex;
+  flex: 1;
+}
+
+.header__center > button {
+  font-size: 16px;
+  font-weight: 600;
+  width: 350px;
+  border: none;
+  color: rgb(104, 104, 104);
+  background: white;
+  outline-width: 0ch;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+}
+
+.header__center > button:hover {
+  background-color: white;
+}
+
+.header__center .icon {
+  border-radius: 22px;
+  padding: 2px;
+  margin-right: -6px;
+  color: white;
+  background-color: #ff777e;
+  cursor: pointer;
+}
+
+span .search-menu {
+  margin-top: 35px;
+  width: 700px;
+  margin-left: 20px;
+  margin-right: auto;
+  height: 130px;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.search-menu .search-item {
+  width: 600px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(255, 255, 255);
+  justify-content: space-evenly;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.search-item > input {
+  width: 33%;
+  font-size: 20px;
+  outline-width: 0cm;
+  border: none;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.search-item > input:hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: 999px;
+  color: white;
+}
+
+.search-item > Button {
+  width: 30%;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 15px;
+}
+
+.search-item > Button:hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: 999px;
+  color: white;
+}
+
+.search-btn > Button {
+  margin: 5px;
+  margin-top: 2px;
+  text-align: center;
+  height: 65px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 999px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.search-btn > Button:hover {
+  color: white;
+  background-color: black;
+}
+
+.header__right {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  justify-content: space-evenly;
+}
+
+.header__host {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.header__host > Button {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+  color: #808080;
+  font-family: "PT Sans", sans-serif;
+}
+.header__host > Button:hover {
+  background: rgb(248, 248, 248);
+  box-shadow: -3px 15px 11px -10px rgba(179, 179, 179, 1);
+  color: black;
+}
+
+.header__lang > Button {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 28%;
+  height: 40px;
+  color: #808080;
+}
+
+.header__lang > Button:hover {
+  color: black;
+  background: rgb(248, 248, 248);
+  box-shadow: -3px 15px 11px -10px rgba(179, 179, 179, 1);
+}
+
+span .lang {
+  width: 150px;
+  height: 120px;
+  background-color: white;
+  border: 2px solid rgb(235, 235, 235);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+span .lang > Button {
+  margin-top: 10px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+.header__login > Button {
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  transition: ease 0.5s;
+  color: #808080;
+  border-radius: 10px;
+  margin-top: 21px;
+  border: none;
+  margin-left: 10px;
+}
+
+.header__login > Button:hover {
+  background: rgb(247, 247, 247);
+  color: black;
+  box-shadow: -3px 15px 11px -10px rgba(179, 179, 179, 1);
+}
+
+.header__login .acc {
+  object-fit: fill;
+  height: 32px;
+  width: 32px;
+  margin-top: -4px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

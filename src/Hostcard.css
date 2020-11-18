@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.host__card {
+  width: 350px;
+  height: 295px;
+  margin-left: 40px;
+  overflow: hidden;
+}
+
+.host__card > img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.host__card > h2 {
+  height: 30px;
+  font-size: 22px;
+  margin-top: 5px;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+}

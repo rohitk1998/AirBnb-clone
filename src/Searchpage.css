@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.searchPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.searchPage__info {
+  height: 200px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.searchPage__info > p {
+  font-size: 14px;
+  margin-left: 10px;
+  color: black;
+}
+.searchPage__info > h2 {
+  color: black;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+.searchPage__info > Button {
+  border: 1px solid rgb(230, 230, 230);
+  margin-left: 10px;
+  border-radius: 22px;
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.searchPage__info .btn_showmap {
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  top: 35%;
+  right: 5%;
+  font-weight: 600;
+}
+
+.search__result {
+  width: 100%;
+  background-color: white;
+}
